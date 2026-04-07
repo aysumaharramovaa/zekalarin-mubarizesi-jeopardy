@@ -65,7 +65,7 @@ body {
 }
 
 .button:hover {
-    background-color: #ff0202 !important;
+    background-color: #2e7f5dcd !important;
     color: black;
     box-shadow: 0 0 10px #ff3c00, 0 0 20px #ff3c00;
 }
