@@ -149,7 +149,6 @@ function startTimer(duration) {
 
         if (time <= 0) {
             clearInterval(timerInterval);
-            // Vaxt bitəndə sual qırmızı olsun və ya səs çıxsın (istəyə bağlı)
         } else {
             time--;
         }
