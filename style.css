@@ -1,66 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
+body { margin: 0; font-family: 'Poppins', sans-serif; }
 
 .category-column {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    display: flex; flex-direction: column; gap: 15px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 15px;
+    padding: 20px; border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    width: 250px;
-    text-align: center;
+    width: 260px; text-align: center;
 }
 
 .category-title {
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.2rem;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: #fff; font-weight: 900; font-size: 1.1rem;
+    height: 70px; display: flex; align-items: center; justify-content: center;
+    text-transform: uppercase; text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
 .q-button {
     background: linear-gradient(135deg, #3b82f6, #1e40af);
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    color: white; border: none; padding: 18px;
+    font-size: 1.3rem; font-weight: bold; border-radius: 12px;
+    cursor: pointer; transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-.q-button:hover {
-    transform: scale(1.05);
-    background: linear-gradient(135deg, #60a5fa, #3b82f6);
-}
+.q-button:hover { transform: translateY(-3px); filter: brightness(1.2); }
 
-.active-q {
-    background: #ef4444 !important;
-    animation: pulse 1s infinite;
-}
+.active-q { background: #ef4444 !important; animation: pulse 1s infinite; }
 
 @keyframes pulse {
     0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
+    50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
 
-#questionBox {
-    line-height: 1.5;
-    text-shadow: 2px 2px 10px rgba(0,0,0,1);
+#answerText {
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 #timer {
