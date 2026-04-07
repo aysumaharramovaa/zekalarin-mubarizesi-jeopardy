@@ -1,4 +1,3 @@
-// 🔹 CATEGORIES - Başlıqlar questionsData ilə eyni olmalıdır
 const categories = {
   RİYAZİYYAT: {
     questions: {
