@@ -37,11 +37,11 @@ const categories = {
   },
   "RƏQƏMSAL TEXNOLOGİYALAR": {
     questions: {
-      "3 bal": 120,
-      "4 bal": 120,
-      "5 bal": 120,
-      "6 bal": 120,
-      "7 bal": 120,
+      "3 bal": 90,
+      "4 bal": 90,
+      "5 bal": 90,
+      "6 bal": 90,
+      "7 bal": 90,
     },
   },
 };
