@@ -128,19 +128,19 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   },
   "HUMANİTAR ELMLƏR": {
     "3 bal": {
-      sual: "XVI əsrin əvvəllərində Şah İsmayıl tərəfindən hər iki qoluna son qoyulan Azərbaycan imperiyası hansıdır?",
+      sual: "6.	XVI əsrin əvvəllərində iki yerə parçalanmış bu imperiyanın hər iki qoluna öz qohumları olan Şah İsmayıl Səfəvi tərəfindən son qoyulmuşdur. Söhbət hansı imperiyadan gedir ? ",
       cavab: "Ağqoyunlu imperiyası",
     },
     "4 bal": {
-      sual: "“Asiyanın Sonuncu Böyük Fatehi” adlandırılan Əfşarlar sülaləsinin banisi sərkərdə kimdir?",
-      cavab: "Nadir şah Əfşar",
+      sual: "Bu şəxs Azərbaycanlıları təşkil edən Oğuz tayfalarından birinə mənsub olmuş və fəaliyyəti dövründə bölgədəki bütün dövlətləri və imperiyaları məğlub etmişdir. Qardaşı oğlu tərəfindən öldürülən və “Asiyanın Sonuncu Böyük Fatehi” adlandırılan sərkərdə kimdir?(",
+      cavab: "Nadir şah Əfşar.",
     },
     "5 bal": {
-      sual: "Cənubi Azərbaycanda 1945-ci ildə baş vermiş milli azadlıq hərəkatı tarixdə hansı adla tanınır?",
-      cavab: "21 Azər hərəkatı",
+      sual: "5.	Türkiyənin Qara dəniz bölgəsində yerləşən və eyni zamanda Səfəvi və Osmanlı imperiyaları arasındakı müharibənin birinci mərhələsini bitirən müqavilənin imzalandığı şəhər hansıdır? ",
+      cavab: "Amasya",
     },
     "6 bal": {
-      sual: "Osmanlı, AXC və Türkiyə parlamentlərinin hər üçündə təmsil olunmuş nadir siyasi xadimimiz kimdir?",
+      sual: "1.	Üç fərqli siyasi rejimin — Osmanlı imperiyası, Azərbaycan Xalq Cümhuriyyəti və Türkiyə Respublikasının — parlamentlərində təmsil olunmuş nadir siyasi xadimlərdən biri olan eyni zamanda ictimai-siyasi, maarifçi və akademik fəaliyyəti ilə seçilən bu şəxs kimdir? ",
       cavab: "Əhməd bəy Ağaoğlu",
     },
     //     "7 bal": {
@@ -150,6 +150,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
     //       cavab:
     //         "Balakən, Zaqatala, Qax — Rusiya və Gürcüstanla (şimal-qərbdə); Qazax, Ağstafa, Tovuz — Ermənistan və Gürcüstanla (qərbdə); Zəngilan — Ermənistan və İranla (cənub-qərbdə); Şərur, Kəngərli, Babək, Culfa, Ordubad — Ermənistan və İranla (Naxçıvan Muxtar Respublikasında)",
     //     },
+
     "7 bal": {
       sual: `Azərbaycanın iki və daha artıq ölkə ilə inzibati sərhəd olaraq qonşu olduğu rayonlar hansılardır? 
 (tam cavab qeyd olunmalıdır)`,
