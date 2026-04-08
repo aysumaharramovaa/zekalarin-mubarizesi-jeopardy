@@ -106,24 +106,24 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   },
   "MƏDƏNİYYƏT VƏ İNCƏSƏNƏT": {
     "3 bal": {
-      sual: 'Məhəmməd Füzulinin "Həft cam" əsərində şair neçə musiqi aləti ilə söhbətləşir?',
+      sual: 'Məhəmməd Füzulinin  "Həft cam” əsərində şair cam içərkən növbə ilə musiqi alətləri ilə “söhbət” edir: Əsərdə neçə müsiqi aləti ilə söhbətləşilir?',
       cavab: "7",
     },
     "4 bal": {
-      sual: "Azərbaycanın ilk qadın opera müğənnisi Şövkət Məmmədovaya ithaf edilmiş opera hansıdır?",
-      cavab: "“Şahsənəm” operası",
+      sual: "7.	Qaraqoyunlular dövrünün yadigarı olan, vaxtilə böyük memarlıq kompleksi kimi inşa edilmiş, mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidənin eyni adlı nümunəsi həm də İrəvanda mövcuddur. Hansı məsciddən söhbət gedir? Və ya  XVIII əsrdə İrəvanda inşa edilmiş bu məscidin eyni adlı başqa bir nümunəsi orta əsr Azərbaycan dövlətlərinin paytaxt şəhərlərindən birində yerləşir. Mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidə necə adlanır?",
+      cavab: "Göy Məscid",
     },
     "5 bal": {
-      sual: "XI yüzilliyin 60-cı illərində Bağdaddakı ali mədrəsədə dərs demiş böyük azərbaycanlı alim kimdir?",
-      cavab: "Xətib Təbrizi",
+      sual: "- İ. Stalinin “Şərq gözəli” adlandırdığı, Üzeyir Hacıbəylinin çox dəyər verdiyi, Səməd Vurğunun şeir, Əliağa Vahidin bir neçə qəzəl həsr etdiyi, rəssam Vəcihə Səmədovanın portretini çəkdiyi, “Qəzəlxan” filmindəki aktrisa obrazının prototipi olan xanım (aktrisa) kimdir?",
+      cavab: "Azərbaycanın xalq artisti, Stalin və Dövlət  Mükafatı laureatı, İstiqlaliyyət ordenli Leyla xanım Bədirbəyli ( 1920 – 1999 ).",
     },
     "6 bal": {
-      sual: "E.ə 10.000-ci ildə inşa edilmiş və dünyanın ən qədim dini abidəsi sayılan Göbeklitəpə Türkiyənin hansı şəhərindədir?",
-      cavab: "Şanlıurfa",
+      sual: "13.	Fransız qadınlar, bəzən sevmədikləri digər qadınlara “XXX sənin rəsmini çəksin” deyirdilər. XX əsr incəsənətinin ən tanınmış şəxslərindən olan bu rəssam, Jorj Brakla birlikdə üçsəthli cismin səthlərini orijinal tərzdə bir yerdə təqdim edən sənət axınına yaratmışdır. Söhbət kimdən gedir və hansı sənət axınını baniləşdirmişdir? ",
+      cavab: "Pablo Pikasso, Kubizm ",
     },
     "7 bal": {
-      sual: "Təbrizdə Elxanilər dövründə inşasına başlanılan, sonradan qalaya çevrilmiş abidə hansıdır?",
-      cavab: "Ərk qalası (Əlişah məscidi)",
+      sual: "11.	Son Elxani hökmdarı tərəfindən vəziri Əli şahın inşasına başladığı, ilk tikildiyi dövrdə məscid kimi istifadə olunan bu abidə  sonradan ehtimal ki, Təbrizdə baş verən zəlzələlər səbəbindən divar və zirzəmilər əlavə edilərək qala formasına çevrilmişdir. Bu hansı tikilidir? ",
+      cavab: "Ərk qalası əvvəlki adı ilə Əlişah məscidi",
     },
   },
   "HUMANİTAR ELMLƏR": {
