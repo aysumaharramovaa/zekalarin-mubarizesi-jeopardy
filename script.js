@@ -129,8 +129,8 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   },
   "HUMANİTAR ELMLƏR": {
     "3 bal": {
-      sual: "Təbrizdəki İngiltərə konsulunun “artıq Təbriz Bakıya Tehrandan daha yaxındır” ifadəsi ilə Cənubi və Şimali Azərbaycanın mümkün birləşməsinə eyham vurduğu Cənubi Azərbaycanın milli azadlıq hərəkatı tarixdə əsasən hansı adla tanınır?  ",
-      cavab: "21 Azər hərəkatı (və ya 21 Azər inqilabı).",
+      sual: "20 sentyabr 1994-cü ildə Ulu Öndər Heydər Əliyev tərəfindən bu müqavilə imzalanmış və bu müqavilə ilə ölkəmizə beynəlxalq şirkətlərin cəlb olunma prosesi başlamışdır. Bu addım ölkə iqtisadiyyatının inkişafında və müstəqilliyin möhkəmlənməsində ən böyük uğurlardan biri kimi qiymətləndirilir. Söhbət hansı müqavilədən gedir?",
+      cavab: "Əsrin müqaviləsi",
     },
     "4 bal": {
       sual: "Bu şəxs Azərbaycanlıları təşkil edən Oğuz tayfalarından birinə mənsub olmuş və fəaliyyəti dövründə bölgədəki bütün dövlətləri və imperiyaları məğlub etmişdir. Qardaşı oğlu tərəfindən öldürülən və “Asiyanın Sonuncu Böyük Fatehi” adlandırılan sərkərdə kimdir?",
