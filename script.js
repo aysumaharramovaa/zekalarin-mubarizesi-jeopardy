@@ -161,23 +161,23 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   },
   "RƏQƏMSAL TEXNOLOGİYALAR": {
     "3 bal": {
-      sual: "",
+      sual: "9-cu sinif şagirdi Elvinə Instagram-da “pulsuz onlayn kurs” təklif edən naməlum hesabdan mesaj gəlir. Mesajdakı linki açdıqdan sonra onun telefonunda tez-tez reklam pəncərələri çıxmağa başlayır, brauzeri öz-özünə başqa saytlara yönlənir. Tapşırıq: a) Elvinin bu vəziyyətdə buraxdığı 2 təhlükəsizlik səhvini qeyd edin. b) Hadisədən sonra atmalı olduğu 2 düzgün addımı yazın. ",
       cavab: "",
     },
     "4 bal": {
-      sual: "",
+      sual: "Ramil yeni oyun quraşdırarkən tətbiqin kamera və kontaktlara giriş istəməsini oxumadan “icazə ver” düyməsini basır.  Tapşırıq: a) Bu qərarın 2 mümkün riskini yazın. b) Gələcəkdə belə hallardan qorunmaq üçün 1 düzgün davranış göstərin.",
       cavab: "",
     },
     "5 bal": {
-      sual: "",
+      sual: "Tətbiqdə hər məhsulun üzərinə 18% ƏDV əlavə olunmalıdır. Verilən qiymətlər: [10, 25, 40] Tapşırıq: a) price_with_tax(p) funksiyasının pseudo-kodunu yazın.  b) Verilən 3 qiymət üçün ƏDV-li nəticələri hesablayın. Marker qeydi:	Texniki bacarıq olması etik problemi aradan qaldırmır. Şagird həm texniki üstünlüyü, həm etik problemi ayrı yazmalıdır.",
       cavab: "",
     },
     "6 bal": {
-      sual: "",
+      sual: "Universitetlər abituriyentlərin qəbulunu süni intellekt sistemi ilə həyata keçirir. Bir neçə il sonra statistik olaraq bəzi regionlardan gələn şagirdlərin qəbul ehtimalının xeyli aşağı olduğu ortaya çıxır.  Tapşırıq: a) Bu vəziyyətin 2 mümkün səbəbini yazın. b) Sistemin daha ədalətli olması üçün 2 texniki/idarəetmə həlli təklif edin.",
       cavab: "",
     },
     "7 bal": {
-      sual: "",
+      sual: "Cəmiyyətdə süni intellektin verdiyi qərarlar insan qərarlarından “daha obyektiv və doğru” kimi qəbul olunmağa başlayır. Mübahisəli hallarda insanların fikri deyil, alqoritmin nəticəsi əsas götürülür. Tapşırıq:  a) Bu tendensiyanın 2 ciddi sosial riskini yazın. b) 1 prinsip təklif edin ki, insan məsuliyyəti qorunsun. ",
       cavab: "",
     },
   },
