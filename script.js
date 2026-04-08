@@ -141,8 +141,8 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       cavab: "Amasya",
     },
     "6 bal": {
-      sual: "Yaxşılığa yaxşılıq hər kişinin işidir yamanlığa yaxşılıq ər kişinin işidir. Atalar məsəlini xatırladan, xanlıqlar dövründə baş vermiş hadisə hansıdır? ",
-      cavab: "Qızılqaya Xəyatəti",
+      sual: "Osmanlı imperiyası, Azərbaycan Xalq Cümhuriyyəti və Türkiyə Respublikasının — parlamentlərində təmsil olunmuş nadir siyasi xadimlərdən biri olan eyni zamanda ictimai-siyasi, maarifçi və akademik fəaliyyəti ilə seçilən bu şəxs kimdir? ",
+      cavab: "Əhməd bəy Ağaoğlu",
     },
     //     "7 bal": {
     //      sual: `Azərbaycanın iki və daha artıq ölkə ilə inzibati sərhəd olaraq qonşu olduğu rayonlar hansılardır?
