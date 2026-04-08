@@ -49,23 +49,33 @@ const categories = {
 const questionsData = {
   RİYAZİYYAT: {
     "3 bal": {
-      sual: `Altı ədəd 4 rəqəminin yan-yana yazılmasından yaranan 444444 ədədini bizim Zəfər rəmzimiz olan 44 ədədinə böldükdə alınan qismət neçədir?`,
+      sual: `44 ədədi bizim üçün sadəcə bir rəqəm deyil, şanlı tariximizin, birliyimizin və sarsılmaz iradəmizin simvoludur. 2020-ci ildə cəmi 44 gün davam edən Vətən Müharibəsi nəticəsində qazanılan tarixi Zəfər, bu ədədi hər bir azərbaycanlının qəlbinə fəxarət rəmzi kimi həkk etdi. Bu, ədalətin bərpası, torpaqlarımızın azadlığı və milli qürurumuzun intibahı olan "44 günlük dastan"ın rəqəmsal ifadəsidir.
+Altı ədəd 4 rəqəminin yan-yana yazılmasından yaranan 444444 ədədini bizim Zəfər rəmzimiz olan 44 ədədinə böldükdə alınan qismət neçədir?
+`,
       cavab: "10101",
     },
     "4 bal": {
-      sual: `"Qarabağ" futbol klubunun "Frankfurt" ilə oyununda yekun hesab 3-2 bitmişdir. Qolların vurulma ardıcıllığı cəmi neçə fərqli ssenaridə baş verə bilər?`,
+      sual: `""Qarabağ" futbol klubu Çempionlar Liqasının Liqa mərhələsində Almaniyanın "Frankfurt" komandası ilə qarşılaşır. Tofiq Bəhramov adına Respublika Stadionunda keçirilən möhtəşəm oyunda təmsilçimiz 3-2 hesabı ilə tarixi qələbə qazanır.
+Yalnız yekun hesabın 3-2 olduğunu bilən bir azarkeş üçün qolların vurulma ardıcıllığı cəmi neçə fərqli ssenaridə baş verə bilər?
+(Məsələn: Q-Q-Q-F-F)
+`,
       cavab: "10",
     },
     "5 bal": {
-      sual: `Eyni iş gücünə malik iki işçi, ölçüləri 8m x 6m olan reklam lövhəsinin bir üzünü 24 dəqiqəyə təmizləyir. 6 işçi həmin lövhənin hər iki üzünü neçə dəqiqəyə təmizləyər?`,
+      sual: `Eyni iş gücünə malik iki işçi, ölçüləri 8 metr və 6 metr olan düzbucaqlı formalı reklam 
+lövhəsinin bir üzünü 24 dəqiqəyə təmizləyir. 
+Buna əsasən, eyni iş gücünə malik 6 işçi həmin lövhənin hər iki üzünü neçə dəqiqəyə 
+təmizləyər? 
+`,
       cavab: "16 dəqiqə",
     },
     "6 bal": {
-      sual: `Zaman maşını düyməsinə basdıqda ya 3 il əvvələ, ya da x il sonraya gedir. 2025-ci ildə 20 dəfə basdıqdan sonra 2030-cu ilə çatan şəxs üçün x-in ən böyük tam qiyməti?`,
+      sual: `Nasaz bir zaman maşınının olduğu filmdə, bir şəxs maşının düyməsinə basdığı anda olduğu  tarixdən ya düz 3 il əvvələ, ya da düz x il sonraya gedir. Filmdə bir nəfər 2025-ci ildə bu  düyməyə ardıcıl olaraq 20 dəfə basdıqdan sonra 2030-cu ildə olduğunu fərq edir. 
+Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in ala biləcəyi ən böyük tam  ədəd qiyməti neçədir?`,
       cavab: "62",
     },
     "7 bal": {
-      sual: `Hər 3 saatda 4 dəqiqə geri qalan saat bazar ertəsi 09:00-da qurulub. Növbəti gün (çərşənbə akşamı) 15:00 olduqda bu saat neçəni göstərər?`,
+      sual: `Bir dərzi emalatxanasındakı divar saatı nasaz olduğu üçün hər 3 saatda düz 4 dəqiqə geri qalır. Dərzi bazar ertəsi günü saat tam 09:00-da saatı düzgün vaxta uyğun qurur. Düzgün  işləyən başqa bir saat növbəti gün (çərşənbə axşamı) tam saat 15:00-ı göstərdikdə, dərzinin  geri qalan divar saatı neçəni göstərəcək? `,
       cavab: "14:20",
     },
   },
