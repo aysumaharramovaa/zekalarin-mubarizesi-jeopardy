@@ -141,7 +141,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       cavab: "Amasya",
     },
     "6 bal": {
-      sual: "Üç fərqli siyasi rejimin — Osmanlı imperiyası, Azərbaycan Xalq Cümhuriyyəti və Türkiyə Respublikasının — parlamentlərində təmsil olunmuş nadir siyasi xadimlərdən biri olan eyni zamanda ictimai-siyasi, maarifçi və akademik fəaliyyəti ilə seçilən bu şəxs kimdir? ",
+      sual: "Osmanlı imperiyası, Azərbaycan Xalq Cümhuriyyəti və Türkiyə Respublikasının — parlamentlərində təmsil olunmuş nadir siyasi xadimlərdən biri olan eyni zamanda ictimai-siyasi, maarifçi və akademik fəaliyyəti ilə seçilən bu şəxs kimdir? ",
       cavab: "Əhməd bəy Ağaoğlu",
     },
     //     "7 bal": {
