@@ -107,7 +107,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   "MƏDƏNİYYƏT VƏ İNCƏSƏNƏT": {
     "3 bal": {
       sual: 'Məhəmməd Füzulinin  "Həft cam” əsərində şair cam içərkən növbə ilə musiqi alətləri ilə “söhbət” edir: Əsərdə neçə müsiqi aləti ilə söhbətləşilir?',
-      cavab: "7",
+      cavab: "7 (yeddi)",
     },
     "4 bal": {
       sual: "Qaraqoyunlular dövrünün yadigarı olan, vaxtilə böyük memarlıq kompleksi kimi inşa edilmiş, mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidənin eyni adlı nümunəsi həm də İrəvanda mövcuddur. Hansı məsciddən söhbət gedir? Və ya  XVIII əsrdə İrəvanda inşa edilmiş bu məscidin eyni adlı başqa bir nümunəsi orta əsr Azərbaycan dövlətlərinin paytaxt şəhərlərindən birində yerləşir. Mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidə necə adlanır?",
@@ -165,12 +165,12 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   },
   "RƏQƏMSAL TEXNOLOGİYALAR": {
     "3 bal": {
-      sual: " İkili (binary) sistemdə 11011 rəqəmi onluq (decimal) sistemdə neçəyə bərabərdir? Addım-addım hesabla.",
-      cavab: "27 ",
+      sual: " İkili (binary) sistemdə 11011 rəqəmi onluq (decimal) sistemdə neçəyə bərabərdir?",
+      cavab: "27",
     },
     "4 bal": {
-      sual: "Bir virus hər saatda yoluxmuş kompüterlərin sayını 2 qat artırır. Əgər saat 00:00-da yalnız 1 kompüter yoluxubsa, saat 05:00-da neçə kompüter yoluxmuş olacaq?",
-      cavab: "32 kompüter",
+      sual: "İnternet ilk dəfə hansı il və hansı layihə çərçivəsində yarandı? ",
+      cavab: "1969 – ARPANET",
     },
     "5 bal": {
       sual: " Bir fayl 1 MB ölçüsündədir. İnternet sürətin 512 KB/saniyədir. Bu faylı tam yükləmək üçün neçə saniyə vaxt lazımdır? (Düşün: ölçü / sürət)",
@@ -181,7 +181,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       cavab: "10 000",
     },
     "7 bal": {
-      sual: "2000-ci ildə Microsoft məhsullarından istifadə edən kompüterlərdə əsas yaranan problem Y2K (Year 2000) problemi idi. Bu, “Millennium Bug” və ya “2000-ci il bug’u” kimi də tanınır. Problem nə idi?",
+      sual: "2000-ci ildə Microsoft məhsullarından istifadə edən kompüterlərdə əsas yaranan problem Y2K (Year 2000) problemi idi. Bu, “Millennium Bug” və ya “2000-ci il bug’ı” kimi də tanınır. Problem nə idi?",
       cavab: "2000-ci ildə Microsoft kompüterlərində ən çox danışılan və real təsir göstərən problem məhz Y2K bug’u idi. Bu, bütün dünyada kompüter tarixinin ən böyük “qorxu” hadisələrindən biri hesab olunur. Kompüter proqramlarının çoxu (xüsusilə 1980–1990-cı illərdə yazılmış köhnə sistemlər) tarixi yalnız iki rəqəmlə saxlayırdı. Məsələn: 1999-cu il → “99” , 2000-ci il → “00” . Kompüter “00” rəqəmini görəndə avtomatik 1900-cü il kimi qəbul edirdi.",
     },
   },
@@ -236,6 +236,7 @@ function startQuestion(cat, label, time) {
   showAnswerBtn.classList.remove("hidden");
   closeBoxBtn.classList.add("hidden");
   questionBox.classList.remove("hidden");
+ 
   timerDisplay.classList.remove("hidden");
 
   selectedButton.classList.add("active-q");
@@ -253,6 +254,7 @@ showAnswerBtn.onclick = revealAnswer;
 
 closeBoxBtn.onclick = () => {
   questionBox.classList.add("hidden");
+   timerDisplay.classList.add("hidden");
   if (selectedButton) {
     selectedButton.style.visibility = "hidden";
     selectedButton.classList.add("done");
