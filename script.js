@@ -99,7 +99,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
         "Raket mühərriki Nyutonun üçüncü qanununa əsasən işləyir. Yanacaq yandıqda yüksək sürətli qazlar aşağı istiqamətdə xaric edilir. Qazlara göstərilən təsir qüvvəsinə qarşılıq olaraq raket əks istiqamətdə yuxarıya doğru hərəkət edir. Raketin qalxması üçün mühərrikin yaratdığı itələmə qüvvəsi onun ağırlıq qüvvəsindən böyük olmalıdır.",
     },
     "7 bal": {
-      sual: "Laboratoriyada şagird çayı iki eyni stəkana çay tökür. Bir stəkana aktiv kömür əlavə edir, digərinə isə heç nə əlavə etmir. Çayları bir müddət qarışdırdıqdan sonra hər iki stəkandan süzür. Aktiv kömür əlavə olunan stəkanda suyun rəngi açılır, digərində isə çayın rəngi olduğu kimi qara qalır. Buna səbəb nədir?",
+      sual: "Laboratoriyada şagird iki eyni stəkana çay tökür. Bir stəkana aktiv kömür əlavə edir, digərinə isə heç nə əlavə etmir. Çayları bir müddət qarışdırdıqdan sonra hər iki stəkandan süzür. Aktiv kömür əlavə olunan stəkanda suyun rəngi açılır, digərində isə çayın rəngi olduğu kimi qara qalır. Buna səbəb nədir?",
       cavab:
         "Aktiv kömür adsorbsiya qabiliyyətinə malikdir. O, suyun içindəki çay boyası və rəng verən molekulları öz səthinə çəkir və saxlayır. Buna görə də aktiv kömürün əlavə olunduğu stəkanda çayın rəngi açılır.",
     },
