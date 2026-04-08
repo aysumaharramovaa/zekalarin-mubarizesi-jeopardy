@@ -1,38 +1,38 @@
 const categories = {
   RİYAZİYYAT: {
     questions: {
-      "3 bal": 120,
-      "4 bal": 120,
-      "5 bal": 120,
-      "6 bal": 120,
-      "7 bal": 120,
+      "3 bal": 90,
+      "4 bal": 90,
+      "5 bal": 90,
+      "6 bal": 90,
+      "7 bal": 90,
     },
   },
   "TƏBİƏT ELMLƏRİ": {
     questions: {
-      "3 bal": 120,
-      "4 bal": 120,
-      "5 bal": 120,
-      "6 bal": 120,
-      "7 bal": 120,
+      "3 bal": 90,
+      "4 bal": 90,
+      "5 bal": 90,
+      "6 bal": 90,
+      "7 bal": 90,
     },
   },
   "HUMANİTAR ELMLƏR": {
     questions: {
-      "3 bal": 120,
-      "4 bal": 120,
-      "5 bal": 120,
-      "6 bal": 120,
-      "7 bal": 120,
+      "3 bal": 90,
+      "4 bal": 90,
+      "5 bal": 90,
+      "6 bal": 90,
+      "7 bal": 90,
     },
   },
   "MƏDƏNİYYƏT VƏ İNCƏSƏNƏT": {
     questions: {
-      "3 bal": 120,
-      "4 bal": 120,
-      "5 bal": 120,
-      "6 bal": 120,
-      "7 bal": 120,
+      "3 bal": 90,
+      "4 bal": 90,
+      "5 bal": 90,
+      "6 bal": 90,
+      "7 bal": 90,
     },
   },
   "RƏQƏMSAL TEXNOLOGİYALAR": {
@@ -94,7 +94,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
         "Maye və qaz halında olan maddələrin molekulları daim nizamsız istilik hərəkəti edir. Ətirin molekulları da bu hərəkət nəticəsində havanın molekulları ilə toqquşaraq hər istiqamətdə yayılır. Bu proses diffuziya adlanır və molekulların istilik hərəkəti nəticəsində baş verir.",
     },
     "6 bal": {
-      sual: "●	Kosmik gəmini Yerətrafı orbitə çıxaran raketin kütləsi 2500–3000 ton ola bilər. Belə böyük kütləyə baxmayaraq, raket Yer səthindən qalxaraq kosmosa doğru hərəkət edir. Raket mühərrikinin iş prinsipini izah edin və onun Yer üzündə necə hərəkət edə bildiyini əsaslandırın. ",
+      sual: "Kosmik gəmini Yerətrafı orbitə çıxaran raketin kütləsi 2500–3000 ton ola bilər. Belə böyük kütləyə baxmayaraq, raket Yer səthindən qalxaraq kosmosa doğru hərəkət edir. Raket mühərrikinin iş prinsipini izah edin və onun Yer üzündə necə hərəkət edə bildiyini əsaslandırın. ",
       cavab:
         "Raket mühərriki Nyutonun üçüncü qanununa əsasən işləyir. Yanacaq yandıqda yüksək sürətli qazlar aşağı istiqamətdə xaric edilir. Qazlara göstərilən təsir qüvvəsinə qarşılıq olaraq raket əks istiqamətdə yuxarıya doğru hərəkət edir. Raketin qalxması üçün mühərrikin yaratdığı itələmə qüvvəsi onun ağırlıq qüvvəsindən böyük olmalıdır.",
     },
@@ -110,7 +110,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       cavab: "7",
     },
     "4 bal": {
-      sual: "7.	Qaraqoyunlular dövrünün yadigarı olan, vaxtilə böyük memarlıq kompleksi kimi inşa edilmiş, mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidənin eyni adlı nümunəsi həm də İrəvanda mövcuddur. Hansı məsciddən söhbət gedir? Və ya  XVIII əsrdə İrəvanda inşa edilmiş bu məscidin eyni adlı başqa bir nümunəsi orta əsr Azərbaycan dövlətlərinin paytaxt şəhərlərindən birində yerləşir. Mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidə necə adlanır?",
+      sual: "Qaraqoyunlular dövrünün yadigarı olan, vaxtilə böyük memarlıq kompleksi kimi inşa edilmiş, mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidənin eyni adlı nümunəsi həm də İrəvanda mövcuddur. Hansı məsciddən söhbət gedir? Və ya  XVIII əsrdə İrəvanda inşa edilmiş bu məscidin eyni adlı başqa bir nümunəsi orta əsr Azərbaycan dövlətlərinin paytaxt şəhərlərindən birində yerləşir. Mərkəzi günbəzli özünəməxsus planı ilə seçilən bu abidə necə adlanır?",
       cavab: "Göy Məscid",
     },
     "5 bal": {
