@@ -177,7 +177,7 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       cavab: "2 saniyə",
     },
     "6 bal": {
-      sual: " 4 rəqəmli PIN kod (hər rəqəm 0-dan 9-a qədər rəqəmlərdən ibarətdir). Neçə fərqli PIN kod ola bilər? ",
+      sual: " 4 rəqəmli PIN kod (hər xana 0-dan 9-a qədər rəqəmlərdən ibarətdir). Neçə fərqli PIN kod ola bilər? ",
       cavab: "10 000",
     },
     "7 bal": {
