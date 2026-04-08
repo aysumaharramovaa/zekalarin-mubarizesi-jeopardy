@@ -55,7 +55,7 @@ Altı ədəd 4 rəqəminin yan-yana yazılmasından yaranan 444444 ədədini biz
       cavab: "10101",
     },
     "4 bal": {
-      sual: `""Qarabağ" futbol klubu Çempionlar Liqasının Liqa mərhələsində Almaniyanın "Frankfurt" komandası ilə qarşılaşır. Tofiq Bəhramov adına Respublika Stadionunda keçirilən möhtəşəm oyunda təmsilçimiz 3-2 hesabı ilə tarixi qələbə qazanır.
+      sual: `"Qarabağ" futbol klubu Çempionlar Liqasının Liqa mərhələsində Almaniyanın "Frankfurt" komandası ilə qarşılaşır. Tofiq Bəhramov adına Respublika Stadionunda keçirilən möhtəşəm oyunda təmsilçimiz 3-2 hesabı ilə tarixi qələbə qazanır.
 Yalnız yekun hesabın 3-2 olduğunu bilən bir azarkeş üçün qolların vurulma ardıcıllığı cəmi neçə fərqli ssenaridə baş verə bilər?
 (Məsələn: Q-Q-Q-F-F)
 `,
@@ -144,6 +144,10 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       sual: "Osmanlı imperiyası, Azərbaycan Xalq Cümhuriyyəti və Türkiyə Respublikasının — parlamentlərində təmsil olunmuş nadir siyasi xadimlərdən biri olan eyni zamanda ictimai-siyasi, maarifçi və akademik fəaliyyəti ilə seçilən bu şəxs kimdir? ",
       cavab: "Əhməd bəy Ağaoğlu",
     },
+    // "6 bal": {
+    //   sual: "Yaxşılığa yaxşılıq hər kişinin işidir yamanlığa yaxşılıq ər kişinin işidir. Atalar məsəlini xatırladan, xanlıqlar dövründə baş vermiş hadisə hansıdır? ",
+    //   cavab: "Qızılqaya Xəyatəti",
+    // },
     //     "7 bal": {
     //      sual: `Azərbaycanın iki və daha artıq ölkə ilə inzibati sərhəd olaraq qonşu olduğu rayonlar hansılardır?
     // Sərhəd ölkələrini də qeyd edin.
