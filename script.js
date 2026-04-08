@@ -1,47 +1,47 @@
 const categories = {
   RİYAZİYYAT: {
     questions: {
-      "3 bal": 60,
-      "4 bal": 90,
+      "3 bal": 120,
+      "4 bal": 120,
       "5 bal": 120,
       "6 bal": 120,
-      "7 bal": 180,
+      "7 bal": 120,
     },
   },
   "TƏBİƏT ELMLƏRİ": {
     questions: {
-      "3 bal": 60,
-      "4 bal": 60,
-      "5 bal": 60,
-      "6 bal": 60,
-      "7 bal": 60,
+      "3 bal": 120,
+      "4 bal": 120,
+      "5 bal": 120,
+      "6 bal": 120,
+      "7 bal": 120,
     },
   },
   "HUMANİTAR ELMLƏR": {
     questions: {
-      "3 bal": 60,
-      "4 bal": 60,
-      "5 bal": 60,
-      "6 bal": 60,
-      "7 bal": 60,
+      "3 bal": 120,
+      "4 bal": 120,
+      "5 bal": 120,
+      "6 bal": 120,
+      "7 bal": 120,
     },
   },
   "MƏDƏNİYYƏT VƏ İNCƏSƏNƏT": {
     questions: {
-      "3 bal": 60,
-      "4 bal": 60,
-      "5 bal": 60,
-      "6 bal": 60,
-      "7 bal": 60,
+      "3 bal": 120,
+      "4 bal": 120,
+      "5 bal": 120,
+      "6 bal": 120,
+      "7 bal": 120,
     },
   },
   "RƏQƏMSAL TEXNOLOGİYALAR": {
     questions: {
-      "3 bal": 60,
-      "4 bal": 60,
-      "5 bal": 60,
-      "6 bal": 60,
-      "7 bal": 60,
+      "3 bal": 120,
+      "4 bal": 120,
+      "5 bal": 120,
+      "6 bal": 120,
+      "7 bal": 120,
     },
   },
 };
@@ -89,19 +89,19 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       cavab: "Atmosfer təzyiqi azalır",
     },
     "5 bal": {
-      sual: "Siz yol ilə gedərkən uzaqdan sizə doğru sürətlə yaxınlaşan bir təcili yardım maşınının sirenlərinin səsi gəlir. Maşın sizə yaxınlaşanda səsi daha yüksək, keçib getdikdən sonra isə daha aşağı eşidirsiniz. Bu dopler effketi adlanır. Bu effekti izah edin.",
+      sual: "Qapalı şüşə qabın içinə bir neçə damcı ətir tökün. Bir müddət sonra qabın hər yerində ətirin qoxusu hiss olunacaq. Halbuki qabın içində hava hərəkəti yoxdur. Bu hadisəni molekulların istilik hərəkəti baxımından izah edin.",
       cavab:
-        "Dopler effekti hərəkət edən səs mənbəyinə qarşı və ya ondan uzaqlaşan müşahidəçi üçün səsin tezliyində baş verən dəyişikliyikdir. Maşın yaxınlaşanda dalğalar sıxlaşır (yüksək səs), uzaqlaşanda seyrəlir (aşağı səs).",
+        "Maye və qaz halında olan maddələrin molekulları daim nizamsız istilik hərəkəti edir. Ətirin molekulları da bu hərəkət nəticəsində havanın molekulları ilə toqquşaraq hər istiqamətdə yayılır. Bu proses diffuziya adlanır və molekulların istilik hərəkəti nəticəsində baş verir.",
     },
     "6 bal": {
-      sual: "Kosmik gəmini Yerətrafı orbitə çıxaran raketin mühərrikinin iş prinsipini Nyutonun üçüncü qanununa əsasən izah edin.",
+      sual: "●	Kosmik gəmini Yerətrafı orbitə çıxaran raketin kütləsi 2500–3000 ton ola bilər. Belə böyük kütləyə baxmayaraq, raket Yer səthindən qalxaraq kosmosa doğru hərəkət edir. Raket mühərrikinin iş prinsipini izah edin və onun Yer üzündə necə hərəkət edə bildiyini əsaslandırın. ",
       cavab:
-        "Raket mühərriki Nyutonun üçüncü qanununa əsasən işləyir. Yanacaq yandıqda yüksək sürətli qazlar aşağı xaric edilir, raket isə əks istiqamətdə yuxarıya doğru itələnir.",
+        "Raket mühərriki Nyutonun üçüncü qanununa əsasən işləyir. Yanacaq yandıqda yüksək sürətli qazlar aşağı istiqamətdə xaric edilir. Qazlara göstərilən təsir qüvvəsinə qarşılıq olaraq raket əks istiqamətdə yuxarıya doğru hərəkət edir. Raketin qalxması üçün mühərrikin yaratdığı itələmə qüvvəsi onun ağırlıq qüvvəsindən böyük olmalıdır.",
     },
     "7 bal": {
-      sual: "Aktiv kömür əlavə olunan çayda rəngin açılmasının fiziki-kimyəvi səbəbi nədir?",
+      sual: "Laboratoriyada şagird çayı iki eyni stəkana çay tökür. Bir stəkana aktiv kömür əlavə edir, digərinə isə heç nə əlavə etmir. Çayları bir müddət qarışdırdıqdan sonra hər iki stəkandan süzür. Aktiv kömür əlavə olunan stəkanda suyun rəngi açılır, digərində isə çayın rəngi olduğu kimi qara qalır. Buna səbəb nədir?",
       cavab:
-        "Aktiv kömür adsorbsiya qabiliyyətinə malikdir. O, suyun içindəki çay boyası və rəng verən molekulları öz səthinə çəkir və saxlayır.",
+        "Aktiv kömür adsorbsiya qabiliyyətinə malikdir. O, suyun içindəki çay boyası və rəng verən molekulları öz səthinə çəkir və saxlayır. Buna görə də aktiv kömürün əlavə olunduğu stəkanda çayın rəngi açılır.",
     },
   },
   "MƏDƏNİYYƏT VƏ İNCƏSƏNƏT": {
@@ -114,15 +114,16 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
       cavab: "Göy Məscid",
     },
     "5 bal": {
-      sual: "- İ. Stalinin “Şərq gözəli” adlandırdığı, Üzeyir Hacıbəylinin çox dəyər verdiyi, Səməd Vurğunun şeir, Əliağa Vahidin bir neçə qəzəl həsr etdiyi, rəssam Vəcihə Səmədovanın portretini çəkdiyi, “Qəzəlxan” filmindəki aktrisa obrazının prototipi olan xanım (aktrisa) kimdir?",
-      cavab: "Azərbaycanın xalq artisti, Stalin və Dövlət  Mükafatı laureatı, İstiqlaliyyət ordenli Leyla xanım Bədirbəyli ( 1920 – 1999 ).",
+      sual: "İ. Stalinin “Şərq gözəli” adlandırdığı, Üzeyir Hacıbəylinin çox dəyər verdiyi, Səməd Vurğunun şeir, Əliağa Vahidin bir neçə qəzəl həsr etdiyi, rəssam Vəcihə Səmədovanın portretini çəkdiyi, “Qəzəlxan” filmindəki aktrisa obrazının prototipi olan xanım (aktrisa) kimdir?",
+      cavab:
+        "Azərbaycanın xalq artisti, Stalin və Dövlət  Mükafatı laureatı, İstiqlaliyyət ordenli Leyla xanım Bədirbəyli  (1920–1999).",
     },
     "6 bal": {
-      sual: "13.	Fransız qadınlar, bəzən sevmədikləri digər qadınlara “XXX sənin rəsmini çəksin” deyirdilər. XX əsr incəsənətinin ən tanınmış şəxslərindən olan bu rəssam, Jorj Brakla birlikdə üçsəthli cismin səthlərini orijinal tərzdə bir yerdə təqdim edən sənət axınına yaratmışdır. Söhbət kimdən gedir və hansı sənət axınını baniləşdirmişdir? ",
+      sual: "Fransız qadınlar, bəzən sevmədikləri digər qadınlara “XXX sənin rəsmini çəksin” deyirdilər. XX əsr incəsənətinin ən tanınmış şəxslərindən olan bu rəssam, Jorj Brakla birlikdə üçsəthli cismin səthlərini orijinal tərzdə bir yerdə təqdim edən sənət axınına yaratmışdır. Söhbət kimdən gedir və hansı sənət axınını baniləşdirmişdir? ",
       cavab: "Pablo Pikasso, Kubizm ",
     },
     "7 bal": {
-      sual: "11.	Son Elxani hökmdarı tərəfindən vəziri Əli şahın inşasına başladığı, ilk tikildiyi dövrdə məscid kimi istifadə olunan bu abidə  sonradan ehtimal ki, Təbrizdə baş verən zəlzələlər səbəbindən divar və zirzəmilər əlavə edilərək qala formasına çevrilmişdir. Bu hansı tikilidir? ",
+      sual: "Son Elxani hökmdarı tərəfindən vəziri Əli şahın inşasına başladığı, ilk tikildiyi dövrdə məscid kimi istifadə olunan bu abidə  sonradan ehtimal ki, Təbrizdə baş verən zəlzələlər səbəbindən divar və zirzəmilər əlavə edilərək qala formasına çevrilmişdir. Bu hansı tikilidir? ",
       cavab: "Ərk qalası əvvəlki adı ilə Əlişah məscidi",
     },
   },
