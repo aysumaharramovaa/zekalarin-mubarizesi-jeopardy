@@ -129,8 +129,8 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   },
   "HUMANİTAR ELMLƏR": {
     "3 bal": {
-      sual: "XVI əsrin əvvəllərində iki yerə parçalanmış bu imperiyanın hər iki qoluna öz qohumları olan Şah İsmayıl Səfəvi tərəfindən son qoyulmuşdur. Söhbət hansı imperiyadan gedir ? ",
-      cavab: "Ağqoyunlu imperiyası",
+      sual: "Təbrizdəki İngiltərə konsulunun “artıq Təbriz Bakıya Tehrandan daha yaxındır” ifadəsi ilə Cənubi və Şimali Azərbaycanın mümkün birləşməsinə eyham vurduğu Cənubi Azərbaycanın milli azadlıq hərəkatı tarixdə əsasən hansı adla tanınır?  ",
+      cavab: "21 Azər hərəkatı (və ya 21 Azər inqilabı).",
     },
     "4 bal": {
       sual: "Bu şəxs Azərbaycanlıları təşkil edən Oğuz tayfalarından birinə mənsub olmuş və fəaliyyəti dövründə bölgədəki bütün dövlətləri və imperiyaları məğlub etmişdir. Qardaşı oğlu tərəfindən öldürülən və “Asiyanın Sonuncu Böyük Fatehi” adlandırılan sərkərdə kimdir?",
@@ -183,7 +183,6 @@ Buna əsasən, düymənin irəli apardığı illərin sayını bildirən x-in al
   },
 };
 
-// 🔹 ELEMENTLƏR
 const categoryContainer = document.getElementById("categoryContainer");
 const questionBox = document.getElementById("questionBox");
 const questionTextDiv = document.getElementById("questionText");
@@ -197,7 +196,6 @@ let timerInterval = null;
 const audioTicker1 = new Audio("Files/ticker1.mp3");
 const audioTicker2 = new Audio("Files/ticker2.mp3");
 
-// 🔹 UI YARATMAQ
 Object.entries(categories).forEach(([title, { questions }]) => {
   const div = document.createElement("div");
   div.className = "category-column";
@@ -217,7 +215,6 @@ Object.entries(categories).forEach(([title, { questions }]) => {
   categoryContainer.appendChild(div);
 });
 
-// 🔹 SUALI BAŞLAT
 function startQuestion(cat, label, time) {
   const data = questionsData[cat]?.[label];
   if (!data) return alert("Sual tapılmadı: " + cat + " " + label);
@@ -225,7 +222,6 @@ function startQuestion(cat, label, time) {
   questionTextDiv.innerText = data.sual;
   answerTextDiv.innerText = `CAVAB: ${data.cavab}`;
 
-  // Mətn uzunluğuna görə ilkin ölçü tənzimləməsi
   if (data.sual.length > 200) {
     questionTextDiv.style.fontSize = "1.5rem";
   } else {
@@ -243,27 +239,15 @@ function startQuestion(cat, label, time) {
   startTimer(time);
 }
 
-// 🔹 CAVABI AÇ
+// ✅ əlavə etdik (səndə yox idi)
 function revealAnswer() {
-  clearInterval(timerInterval);
-  audioTicker1.pause();
-  audioTicker2.pause();
-
-  // Uzun cavablar üçün şrifti avtomatik kiçilt
-  const answer = answerTextDiv.innerText;
-  if (answer.length > 100) {
-    answerTextDiv.style.fontSize = "1.4rem";
-  } else {
-    answerTextDiv.style.fontSize = "2.5rem";
-  }
-
   answerTextDiv.classList.remove("hidden");
   showAnswerBtn.classList.add("hidden");
   closeBoxBtn.classList.remove("hidden");
-  timerDisplay.classList.add("hidden");
 }
 
 showAnswerBtn.onclick = revealAnswer;
+
 closeBoxBtn.onclick = () => {
   questionBox.classList.add("hidden");
   if (selectedButton) {
@@ -272,13 +256,13 @@ closeBoxBtn.onclick = () => {
   }
 };
 
-// 🔹 TAYMER
 function startTimer(duration) {
   clearInterval(timerInterval);
   let time = duration;
+
   audioTicker1.currentTime = 0;
   audioTicker1.loop = true;
-  audioTicker1.play().catch((e) => {});
+  audioTicker1.play().catch(() => {});
 
   timerInterval = setInterval(() => {
     const min = Math.floor(time / 60);
@@ -288,19 +272,27 @@ function startTimer(duration) {
     if (time === 10) {
       audioTicker1.pause();
       audioTicker2.currentTime = 0;
-      audioTicker2.play().catch((e) => {});
+      audioTicker2.play().catch(() => {});
     }
 
     if (time <= 0) {
       clearInterval(timerInterval);
-      revealAnswer();
+
+      audioTicker1.pause();
+      audioTicker2.pause();
+
+      timerDisplay.innerText = "0:00";
+
+      showAnswerBtn.classList.add("highlight-btn");
+      return;
     }
+
     time--;
   }, 1000);
 }
 
 function runConfetti() {
-  new Audio("Files/music3.mp3").play().catch((e) => {});
+  new Audio("Files/music3.mp3").play().catch(() => {});
   if (typeof confetti === "function") {
     confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
   }
